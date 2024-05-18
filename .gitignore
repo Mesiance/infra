@@ -1,0 +1,6 @@
+trash
+*secret*
+*.tfvars
+.terraform*
+*.tfstate*
+terraform-init.sh
