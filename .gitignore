@@ -3,4 +3,5 @@ trash
 *.tfvars
 .terraform*
 *.tfstate*
-terraform-init.sh
+gitlab_backend.hcl
+envs*

@@ -1,3 +1,28 @@
+# TF state management creds
+#==================================
+variable "gitlab_username" {
+  type = string
+  description = "Gitlab username to query remote state"
+}
+
+variable "gitlab_access_token" {
+  type = string
+  description = "GitLab access token to query remote state"
+}
+
+variable "gitlab_project_id" {
+  type = string
+  description = "GitLab project ID where state-file stores"
+}
+
+variable "gitlab_tf_state_name" {
+  type = string
+  description = "TF state file name"
+}
+
+# Serverspace vars
+#===================================
+
 variable "serverspace_terraform_api_key" {
   description = "Main API-key for serverspace account. Name: Terraform"
   type = string
